@@ -1,0 +1,10 @@
+-php www/no-dynamic
+-main Main
+-dce full
+-D analyzer
+--next
+-php www/dynamic
+-main Main
+-dce full
+-D analyzer
+-D dynamic
