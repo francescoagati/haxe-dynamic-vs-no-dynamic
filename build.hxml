@@ -8,3 +8,14 @@
 -dce full
 -D analyzer
 -D dynamic
+--next
+-java java/no-dynamic
+-main Main
+-dce full
+-D analyzer
+--next
+-java java/dynamic
+-main Main
+-dce full
+-D analyzer
+-D dynamic
